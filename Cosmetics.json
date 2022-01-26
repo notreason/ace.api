@@ -154,6 +154,30 @@
         ]
       }
     ]
+  },
+  {
+    "itemtype" : "emote",
+    "name" : "Boogie Down to Slalom Style",
+    "icon" : "https://fortnite-api.com/images/cosmetics/br/eid_skeemote_k5j4j/icon.png",
+    "swapicon" : "https://fortnite-api.com/images/cosmetics/br/eid_boogiedown/icon.png",
+    "Data" : [
+      {
+        "pakfile" : "pakchunk10_s4-WindowsClient.ucas",
+        "uasset" : "FortniteGame/Content/Athena/Items/Cosmetics/Dances/EID_BoogieDown.uasset",
+        "Swaps" : [
+          {
+            "type" : "string",
+            "search" : "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMF.Emote_Boogie_Down_CMM",
+            "replace" : "/Game/Animation/Game/MainPlayer/Emotes/Skeemote/Emote_Skeemote_CMM_M.Emote_Skeemote_CMM_M"
+          },
+          {
+            "type" : "string",
+            "search" : "/Game/Animation/Game/MainPlayer/Emotes/Boogie_Down/Emote_Boogie_Down_CMF.Emote_Boogie_Down_CMF",
+            "replace" : "/Game/Animation/Game/MainPlayer/Emotes/Skeemote/Emote_Skeemote_CMF_M.Emote_Skeemote_CMF_M"
+          }
+        ]
+      }
+    ]
   }
 ]
 }
