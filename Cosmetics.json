@@ -160,6 +160,7 @@
     "name" : "Boogie Down to Slalom Style",
     "icon" : "https://fortnite-api.com/images/cosmetics/br/eid_skeemote_k5j4j/icon.png",
     "swapicon" : "https://fortnite-api.com/images/cosmetics/br/eid_boogiedown/icon.png",
+    "note" : "false",
     "Data" : [
       {
         "pakfile" : "pakchunk10_s4-WindowsClient.ucas",
